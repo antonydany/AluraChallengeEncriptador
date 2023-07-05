@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+
+body{
+	font-family: 'Inter';
+	height: 80vh;
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F3F5FC;
+}
+
+header{
+	display: flex;
+	width: 90%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+header img#logoAlura{
+
+}
+
+/*Text area para encriptar o desencriptar*/
+.area-input-desencriptar{
+	height: 100%;
+}
+
+.ingresar-desencriptar{
+	margin-top: 25px;
+	width: 90%;
+	height: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#desencriptar-texto{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+
+	width: 100%;
+    height: 100%;
+    position: relative;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#desencriptar-texto::placeholder{
+	opacity: 1;
+	color: #0A3871;
+}
+
+.mensaje-advertencia{
+	margin-left: 10px;
+	display: inline-block;
+	color: #495057;
+}
+
+/*Botones de acciones*/
+
+.botones-accion{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.accion-boton{
+	width: 343px;
+	height: 67px;
+	border-radius: 24px;
+	border-color: #0A3871;
+	margin-bottom: 10px;
+	color: #0A3871;
+	border: 2px solid #0A3871;
+
+}
+
+.accion-boton:first-of-type{
+	color: white;
+	background-color: #0A3871;
+}
+
+/*Mensaje resultante*/
+#mensaje-encriptado{
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
+	color: #343A40;
+
+	position: relative;
+	height: auto;
+	width: 100%;
+}
